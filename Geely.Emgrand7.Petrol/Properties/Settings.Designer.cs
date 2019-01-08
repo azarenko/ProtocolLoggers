@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KWP2000.Properties
+namespace Geely.Emgrand7.Petrol.Properties
 {
 
 

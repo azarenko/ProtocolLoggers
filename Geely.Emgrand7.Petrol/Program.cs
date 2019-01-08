@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace KWP2000
+namespace Geely.Emgrand7.Petrol
 {
     static class Program
     {

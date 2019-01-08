@@ -1,0 +1,5 @@
+D:\projects\ProtocolLoggers\CompilerServices\bin\Debug\CompilerServices.dll
+D:\projects\ProtocolLoggers\CompilerServices\bin\Debug\CompilerServices.pdb
+D:\projects\ProtocolLoggers\CompilerServices\obj\Debug\CompilerServices.csproj.CoreCompileInputs.cache
+D:\projects\ProtocolLoggers\CompilerServices\obj\Debug\CompilerServices.dll
+D:\projects\ProtocolLoggers\CompilerServices\obj\Debug\CompilerServices.pdb

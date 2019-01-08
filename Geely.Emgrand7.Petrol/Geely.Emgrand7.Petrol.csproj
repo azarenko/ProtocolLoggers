@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EA4DE649-96D2-4BAF-9C89-F5427DE645CE}</ProjectGuid>
+    <ProjectGuid>{C0C56C32-6BAF-450C-85CE-4238F6D7E672}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>KWP2000</RootNamespace>
-    <AssemblyName>KWP2000</AssemblyName>
+    <RootNamespace>Geely.Emgrand7.Petrol</RootNamespace>
+    <AssemblyName>Geely.Emgrand7.Petrol</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -69,6 +69,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PortUtilits\PortUtilits.csproj">
+      <Project>{8613df93-49d1-4f55-b0b9-637e5a0649b6}</Project>
+      <Name>PortUtilits</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,14 @@
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\bin\Debug\Geely.Emgrand7.Petrol.exe
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\bin\Debug\Geely.Emgrand7.Petrol.pdb
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\obj\Debug\Geely.Emgrand7.Petrol.csprojAssemblyReference.cache
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\obj\Debug\Geely.Emgrand7.Petrol.Properties.Resources.resources
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\obj\Debug\Geely.Emgrand7.Petrol.csproj.GenerateResource.cache
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\obj\Debug\Geely.Emgrand7.Petrol.csproj.CoreCompileInputs.cache
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\obj\Debug\Geely.Emgrand7.Petrol.exe
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\obj\Debug\Geely.Emgrand7.Petrol.pdb
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\bin\Debug\PortUtilits.dll
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\bin\Debug\PortUtilits.pdb
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\obj\Debug\Geely.Emgrand7.Petrol.MainForm.resources
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\obj\Debug\Geely.Emgrand7.Petrol.csproj.CopyComplete
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\bin\Debug\CompilerServices.dll
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\bin\Debug\CompilerServices.pdb

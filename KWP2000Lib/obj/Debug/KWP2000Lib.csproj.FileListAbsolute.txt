@@ -1,0 +1,9 @@
+D:\projects\ProtocolLoggers\KWP2000Lib\bin\Debug\KWP2000Lib.dll
+D:\projects\ProtocolLoggers\KWP2000Lib\bin\Debug\KWP2000Lib.pdb
+D:\projects\ProtocolLoggers\KWP2000Lib\obj\Debug\KWP2000Lib.csprojAssemblyReference.cache
+D:\projects\ProtocolLoggers\KWP2000Lib\obj\Debug\KWP2000Lib.csproj.CoreCompileInputs.cache
+D:\projects\ProtocolLoggers\KWP2000Lib\obj\Debug\KWP2000Lib.dll
+D:\projects\ProtocolLoggers\KWP2000Lib\obj\Debug\KWP2000Lib.pdb
+D:\projects\ProtocolLoggers\KWP2000Lib\bin\Debug\CompilerServices.dll
+D:\projects\ProtocolLoggers\KWP2000Lib\bin\Debug\CompilerServices.pdb
+D:\projects\ProtocolLoggers\KWP2000Lib\obj\Debug\KWP2000Lib.csproj.CopyComplete

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("KWP2000")]
+[assembly: AssemblyTitle("PortUtilits")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("KWP2000")]
+[assembly: AssemblyProduct("PortUtilits")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ea4de649-96d2-4baf-9c89-f5427de645ce")]
+[assembly: Guid("8613df93-49d1-4f55-b0b9-637e5a0649b6")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -1,0 +1,9 @@
+D:\projects\ProtocolLoggers\PortUtilits\bin\Debug\PortUtilits.dll
+D:\projects\ProtocolLoggers\PortUtilits\bin\Debug\PortUtilits.pdb
+D:\projects\ProtocolLoggers\PortUtilits\obj\Debug\PortUtilits.csprojAssemblyReference.cache
+D:\projects\ProtocolLoggers\PortUtilits\obj\Debug\PortUtilits.csproj.CoreCompileInputs.cache
+D:\projects\ProtocolLoggers\PortUtilits\obj\Debug\PortUtilits.dll
+D:\projects\ProtocolLoggers\PortUtilits\obj\Debug\PortUtilits.pdb
+D:\projects\ProtocolLoggers\PortUtilits\bin\Debug\CompilerServices.dll
+D:\projects\ProtocolLoggers\PortUtilits\bin\Debug\CompilerServices.pdb
+D:\projects\ProtocolLoggers\PortUtilits\obj\Debug\PortUtilits.csproj.CopyComplete
