@@ -16,7 +16,11 @@ namespace Geely.Emgrand7.Petrol
         public MainForm()
         {
             InitializeComponent();
+            backgroundWorker.RunWorkerAsync();
         }
+
+        public static bool isRun = false;
+        public static bool isLog = false;
 
         private void _connect_Click(object sender, EventArgs e)
         {
@@ -35,12 +39,19 @@ namespace Geely.Emgrand7.Petrol
 
             serialPort.BaudRate = 10400;
             serialPort.Open();
+
+
+
+            isRun = true;
         }
 
         private void _disconnect_Click(object sender, EventArgs e)
         {
             if (serialPort.IsOpen)
+            {
+                isRun = false;
                 serialPort.Close();
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -58,7 +69,33 @@ namespace Geely.Emgrand7.Petrol
 
         private void backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
         {
+            do
+            {
+                while (isRun)
+                {
+                    Thread.Sleep(200);
+                }
+                Thread.Sleep(200);
+            }
+            while(true);
+        }
 
+        private void _startLog_Click(object sender, EventArgs e)
+        {
+            isLog = true;
+        }
+
+        private void _stopLog_Click(object sender, EventArgs e)
+        {
+            isLog = false;
+        }
+
+        private void selectFile_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                _filePath.Text = saveFileDialog.FileName;
+            }
         }
     }
 }

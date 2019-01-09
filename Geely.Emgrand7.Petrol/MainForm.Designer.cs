@@ -40,9 +40,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.serialPort = new System.IO.Ports.SerialPort(this.components);
             this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this._filePath = new System.Windows.Forms.TextBox();
+            this.selectFile = new System.Windows.Forms.Button();
+            this._startLog = new System.Windows.Forms.Button();
+            this._stopLog = new System.Windows.Forms.Button();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -98,12 +106,13 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.numericUpDown1);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Location = new System.Drawing.Point(12, 101);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(359, 100);
+            this.groupBox2.Size = new System.Drawing.Size(359, 174);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Parameters";
@@ -152,11 +161,71 @@
             // 
             this.backgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker_DoWork);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(9, 45);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(344, 123);
+            this.textBox1.TabIndex = 3;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this._stopLog);
+            this.groupBox3.Controls.Add(this._startLog);
+            this.groupBox3.Controls.Add(this.selectFile);
+            this.groupBox3.Controls.Add(this._filePath);
+            this.groupBox3.Location = new System.Drawing.Point(12, 281);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(359, 78);
+            this.groupBox3.TabIndex = 6;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Log file";
+            // 
+            // _filePath
+            // 
+            this._filePath.Location = new System.Drawing.Point(6, 19);
+            this._filePath.Name = "_filePath";
+            this._filePath.Size = new System.Drawing.Size(302, 20);
+            this._filePath.TabIndex = 0;
+            // 
+            // selectFile
+            // 
+            this.selectFile.Location = new System.Drawing.Point(314, 17);
+            this.selectFile.Name = "selectFile";
+            this.selectFile.Size = new System.Drawing.Size(35, 23);
+            this.selectFile.TabIndex = 1;
+            this.selectFile.Text = "...";
+            this.selectFile.UseVisualStyleBackColor = true;
+            this.selectFile.Click += new System.EventHandler(this.selectFile_Click);
+            // 
+            // _startLog
+            // 
+            this._startLog.Location = new System.Drawing.Point(6, 45);
+            this._startLog.Name = "_startLog";
+            this._startLog.Size = new System.Drawing.Size(75, 23);
+            this._startLog.TabIndex = 2;
+            this._startLog.Text = "Start";
+            this._startLog.UseVisualStyleBackColor = true;
+            this._startLog.Click += new System.EventHandler(this._startLog_Click);
+            // 
+            // _stopLog
+            // 
+            this._stopLog.Location = new System.Drawing.Point(87, 45);
+            this._stopLog.Name = "_stopLog";
+            this._stopLog.Size = new System.Drawing.Size(75, 23);
+            this._stopLog.TabIndex = 3;
+            this._stopLog.Text = "Stop";
+            this._stopLog.UseVisualStyleBackColor = true;
+            this._stopLog.Click += new System.EventHandler(this._stopLog_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 360);
+            this.ClientSize = new System.Drawing.Size(381, 369);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -170,6 +239,8 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -187,6 +258,13 @@
         private System.Windows.Forms.Label label2;
         private System.IO.Ports.SerialPort serialPort;
         private System.ComponentModel.BackgroundWorker backgroundWorker;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button _stopLog;
+        private System.Windows.Forms.Button _startLog;
+        private System.Windows.Forms.Button selectFile;
+        private System.Windows.Forms.TextBox _filePath;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog;
     }
 }
 

@@ -12,3 +12,5 @@ D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\obj\Debug\Geely.Emgrand7.Petro
 D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\obj\Debug\Geely.Emgrand7.Petrol.csproj.CopyComplete
 D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\bin\Debug\CompilerServices.dll
 D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\bin\Debug\CompilerServices.pdb
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\bin\Debug\KWP2000Lib.dll
+D:\projects\ProtocolLoggers\Geely.Emgrand7.Petrol\bin\Debug\KWP2000Lib.pdb

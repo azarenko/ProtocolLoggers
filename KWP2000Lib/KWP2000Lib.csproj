@@ -37,12 +37,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Lib.cs" />
+    <Compile Include="Message.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CompilerServices\CompilerServices.csproj">
       <Project>{87dcd7c7-6960-4727-bbe3-db45fbcd08dc}</Project>
       <Name>CompilerServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PortUtilits\PortUtilits.csproj">
+      <Project>{8613df93-49d1-4f55-b0b9-637e5a0649b6}</Project>
+      <Name>PortUtilits</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

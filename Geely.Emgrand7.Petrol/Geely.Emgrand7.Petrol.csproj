@@ -71,6 +71,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\KWP2000Lib\KWP2000Lib.csproj">
+      <Project>{4bf37cfd-8c92-4ba5-ac80-c92a1d47a82b}</Project>
+      <Name>KWP2000Lib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PortUtilits\PortUtilits.csproj">
       <Project>{8613df93-49d1-4f55-b0b9-637e5a0649b6}</Project>
       <Name>PortUtilits</Name>
